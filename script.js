@@ -11,7 +11,7 @@ searchInput.addEventListener('input', (e) => {
   });
 });
 
-fetch('/data/data.json')
+fetch('/idk-what-core-js-want/data/data.json')
   .then((res) => res.json())
   .then((data) => {
     for (let [key, value] of Object.entries(data)) {
